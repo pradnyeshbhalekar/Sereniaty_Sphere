@@ -1,0 +1,58 @@
+.feedback {
+    width: 400px;
+    margin: auto;  
+    background-color: #fff;
+    padding: 25px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #aaa;
+  }
+  
+  .avatar {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url(http://i.dailymail.co.uk/i/pix/2017/08/10/13/4322742700000578-4778430-image-m-12_1502368469801.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  }
+  .star-rating {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .fa-star {
+    color: #ede00c;
+  }
+  
+
+  
+  .location {
+    font-size: 1em;
+    color: #777;
+    display: block;
+    margin: 10px 0 10px 0;
+  }
+  
+  .content {
+    font-size: .95em;
+    color: #888;
+    font-style: italic;
+  }
+
+.row{
+
+    display: flex;
+}
+
+
+
+.avatar1 {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url(./images/ranveer.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  }

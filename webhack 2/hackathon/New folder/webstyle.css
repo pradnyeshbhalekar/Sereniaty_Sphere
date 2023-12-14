@@ -1,0 +1,177 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+ul {
+    float: right;
+    margin-right: 10px;
+    padding-bottom: 200px;
+    padding-top: 6px;
+
+
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+ul li a {
+    color: black;
+    padding-bottom: 20px;
+
+}
+
+nav {
+
+    padding-top: 20px;
+}
+
+nav h3 {
+    color: #7C93DC;
+
+    display: inline;
+
+}
+
+nav h3 a {
+
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+#img {
+
+    height: 500px;
+    width: 500px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 100px;
+    margin-right: 15px;
+
+
+}
+
+.text {
+    float: right;
+    padding-top: 100px;
+    padding-left: 10px;
+
+}
+
+.text p {
+    font-size: 30px;
+    ;
+    color: #7C93DC;
+    float: right;
+    font-weight: bold;
+    position: absolute;
+    left: 600px;
+    padding-left: 10px;
+    padding-top: 60px;
+}
+
+.text1 {
+
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+ }
+
+
+ h4 {
+    padding: 0;
+    margin: 0;
+  }
+  .feedback {
+    width: 480px;
+    margin: auto;  
+    background-color: #fff;
+    padding: 25px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #aaa;
+  }
+  
+  .avatar {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url(./Jay-Shetty-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .avatar1 {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url(./glenon.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .avatar2 {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url(drgabor.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .star-rating {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .fa-star {
+    color: #ede00c;
+  }
+  
+
+  
+  .location {
+    font-size: 1em;
+    color: #777;
+    display: block;
+    margin: 10px 0 10px 0;
+  }
+  
+  .content {
+    font-size: .95em;
+    color: #888;
+    font-style: italic;
+  }
+
+  .row
+{
+
+    display: flex;
+}

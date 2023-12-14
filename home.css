@@ -1,0 +1,582 @@
+*{
+    font-family:Inter;
+    margin: 0%;
+    align-items: center;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+
+.main {
+    position: relative;
+    
+    
+}
+/*navbar*/
+
+
+  .navv {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+    overflow: hidden;
+    padding: 0px 20px;
+  }
+
+
+  .left {
+    height: 10%;
+    width: 60%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+
+  }
+
+  .left img{
+    font-weight:900px;
+    font-style: italic;
+    color: #7C93DC;
+  }
+
+
+  .right {
+    height: 10%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 0%;
+    padding: 0px 20px;
+  }
+
+
+
+  .img1 img {
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    overflow: hidden;
+  }
+
+  .main-heading img{
+    position: absolute;
+    right: 70px;
+    top: 300px ;
+    
+
+  }
+
+  .book-an-appointment{
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #1F2537;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 800px;
+    top:  470px;
+    
+  }
+
+  .book-an-appointment h3{
+    position: absolute;
+    text-align: center;
+  }
+
+
+
+  /*card heading*/
+  .cards-heading h3{
+    position: absolute;
+    top: 700px;
+    left: 190px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  
+
+
+  
+  .card-1{
+    width:  275px;
+    height: 325px;
+    border: 0px solid black;
+    box-shadow: black;
+    position: absolute;
+    left: 170px;
+    top: 820px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.439);
+  }
+
+  .card-1 h1{
+    font-weight: 1000;
+    font-size: 10px;
+    color:#1B4C86;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+  }
+
+  .card-1 h2{
+    font-size: small; 
+    font-size: large;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+    padding-top: 10px;
+  }
+
+  .card-1 p{
+    font-weight:200px ;
+    position: absolute;
+    top: 230px;
+    left:4px;
+  }
+
+  .card-1 img{
+    width: 275px;
+  }
+
+
+
+  
+  .card-2{
+    width:  275px;
+    height: 325px;
+    border: 0px solid black;
+    box-shadow: black;
+    position: absolute;
+    left: 530px;
+    top: 822px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.492);
+  }
+
+  .card-2 h1{
+    font-weight: 1000;
+    font-size: 10px;
+    color:#1B4C86;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+  }
+
+  .card-2 h2{
+    font-size: small; 
+    font-size: large;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+    padding-top: 10px;
+  }
+
+  .card-2 p{
+    font-weight:200px ;
+    position: absolute;
+    top: 230px;
+    left:4px;
+  }
+
+  .card-2 img{
+    width: 275px;
+  }
+
+
+  
+  .card-3{
+    width:  275px;
+    height: 325px;
+    border: 0px solid black;
+    box-shadow: black;
+    position: absolute;
+    left: 900px;
+    top: 820px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.439);
+  }
+
+  .card-3 h1{
+    font-weight: 1000;
+    font-size: 10px;
+    color:#1B4C86;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+  }
+
+  .card-3 h2{
+    font-size: small; 
+    font-size: large;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+    padding-top: 10px;
+  }
+
+  .card-3 p{
+    font-weight:200px ;
+    position: absolute;
+    top: 230px;
+    left:4px;
+  }
+
+  .card-3 img{
+    width: 275px;
+    height: 176px;
+  }
+
+
+
+
+  .card-4{
+    width:  275px;
+    height: 335px;
+    overflow: hidden;
+    border: 0px solid black;
+    box-shadow: black;
+    position: absolute;
+    left: 170px;
+    top: 1190px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.439);
+  }
+
+  .card-4 h1{
+    font-weight: 1000;
+    font-size: 10px;
+    color:#1B4C86;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+  }
+
+  .card-4 h2{
+    font-size: small; 
+    font-size: large;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+    padding-top: 10px;
+  }
+
+  .card-4 p{
+    font-weight:200px ;
+    position: absolute;
+    top: 230px;
+    left:4px;
+  }
+
+  .card-4 img{
+    width: 275px;
+    height: 185px;
+  }
+
+
+ 
+ .card-5{
+    width:  275px;
+    height: 335px;
+    border: 0px solid black;
+    box-shadow: black;
+    position: absolute;
+    left: 530px;
+    top: 1190px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.439);
+  }
+
+  .card-5 h1{
+    font-weight: 1000;
+    font-size: 10px;
+    color:#1B4C86;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+  }
+
+  .card-5 h2{
+    font-size: small; 
+    font-size: large;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+    padding-top: 10px;
+  }
+
+  .card-5 p{
+    font-weight:200px ;
+    position: absolute;
+    top: 230px;
+    left:4px;
+  }
+
+  .card-5 img{
+    width: 275px;
+  }
+
+
+
+  
+
+  .card-6{
+    width:  275px;
+    height: 335px;
+    border: 0px solid black;
+    box-shadow: black;
+    position: absolute;
+    left: 900px;
+    top: 1190px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.439);
+  }
+
+  .card-6 h1{
+    font-weight: 1000;
+    font-size: 10px;
+    color:#1B4C86;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+  }
+
+  .card-6 h2{
+    font-size: small; 
+    font-size: large;
+    position: absolute;
+    left: 10px;
+    top: 195px;
+    padding-top: 10px;
+  }
+
+  .card-6 p{
+    font-weight:200px ;
+    position: absolute;
+    top: 230px;
+    left:4px;
+  }
+
+  .card-6 img{
+    width: 275px;
+    height: 176px;
+  }
+
+
+
+  .about-us-panel{
+    position: absolute;
+    top: 1650px;
+    left: 40px;
+    overflow: hidden;
+  }
+
+  .about-us-panel h1{
+    color: #000;
+   font-family: Inter;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+  }
+
+
+  .about-us-panel p{
+    color: #2E2C2C;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+  .about-us-panel-img img{
+    position: absolute;
+    left: 820px;
+    top: 1600px;
+  }
+
+.plus-19 h1{
+    color: rgba(112, 169, 236, 0.87);
+font-family: Inter;
+font-size: 58px;
+position: absolute;
+top: 1860px;
+left: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.plus-19 h3{
+    color: #2E2C2C;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 1925px;
+    left: 30px;
+
+}
+
+
+.plus-500 h1{
+    color: #82B4EE;
+font-family: Inter;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 1860px;
+margin-left: 220px;
+}
+
+.plus-500 h3{
+    color: #2E2C2C;
+font-family: Inter;
+font-size:28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 1925px;
+margin-left: 220px;
+}
+
+
+.plus-4k h1{
+    color: #82B4EE;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 1860px;
+    margin-left: 480px;
+    }
+
+    .plus-4k h3{
+        color: #2E2C2C;
+    font-family: Inter;
+    font-size:28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 1925px;
+    margin-left: 480px;
+    }
+
+
+    .img-brain{
+        width: 573px;
+height: 573px;
+flex-shrink: 0;
+position: absolute;
+left: 50px;
+top: 2300px;
+
+    }   
+
+    
+
+
+    .after-being h1{
+            color: #000;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: absolute;
+        top: 2200px ;
+        left: 600px;
+    }
+
+    .after-being p{
+        color: #2E2C2C;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: absolute;
+        left: 600px;
+        top: 2340px
+    }
+
+
+    .list-1{
+        position: absolute;
+        right: 150px;
+        top: 2450px;
+    }
+
+    .list-2{
+        position: absolute;
+        right: 500px;
+        top: 2450px;
+    }
+
+    .list-3{
+        position: absolute;
+        right: 513px;
+        top: 2500px;
+    }
+
+    .list-4{
+        position: absolute;
+        right:160px;
+        top: 2500px;
+    }
+
+
+    .contact-us{
+        height: 50px;
+        width: 200px;
+        border: 0px solid black;
+        border-radius: 15px;
+        background-color: #82B4EE;
+        align-items: center;
+        display: flex;
+        position: absolute;
+        left: 800px;
+        top: 2550px;
+        
+    }
+
+    .contact-us h3{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        padding-left: 45px;
+        color: white;
+    }
